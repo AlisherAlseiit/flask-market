@@ -1,19 +1,5 @@
-
-How to run flask project
--------------------------------------------------------------------------------------------------
-1st method
-set FLASK_APP=nameofthefile.py
-set FLASK_DEBUG=1
-flask run
---------------------
-2nd method
-if __name__ == '__main__':          <--- write in main.py
-    app.run(debug=True)
-
-python main.py  		    <---- execute this command
-
-
------------------------------------------------------------------------
+libraries that you need to install
+---
 pip install flask-sqlalchemy
 pip install flask
 pip install flask-wtf
@@ -21,8 +7,31 @@ pip install email_validator
 pip install flask_bcrypt
 pip install flask_login
 
+
+How to run flask project
+---
+
+1st method:
+
+set FLASK_APP=nameofthefile.py
+set FLASK_DEBUG=1
+flask run
+
+
+2nd method:
+
+1.write next line in main.py file:
+if __name__ == '__main__':     
+    app.run(debug=True)
+
+2. use this command in terminal
+python main.py  		    
+
+
+
+
 using sqlite as db and terminal commands
-----------------------------------------------------------------------
+---
 first we should write class Table
 after that execute command below
 
