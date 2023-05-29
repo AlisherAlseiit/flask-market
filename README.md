@@ -1,11 +1,11 @@
 ## libraries that you need to install
 
-pip install flask-sqlalchemy
-pip install flask
-pip install flask-wtf
-pip install email_validator
-pip install flask_bcrypt
-pip install flask_login
+- pip install flask-sqlalchemy
+- pip install flask
+- pip install flask-wtf
+- pip install email_validator
+- pip install flask_bcrypt
+- pip install flask_login
 
 
 ## How to run flask project
