@@ -12,9 +12,9 @@
 
 ### 1st method:
 
-set FLASK_APP=nameofthefile.py
-set FLASK_DEBUG=1
-flask run
+- set FLASK_APP=nameofthefile.py
+- set FLASK_DEBUG=1
+- flask run
 
 ### 2nd method:
 
@@ -23,7 +23,7 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 2. use this command in terminal
-python main.py  		    
+- python main.py  		    
 
 
 
